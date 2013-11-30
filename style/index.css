@@ -16,9 +16,7 @@ body {
 
 	position: relative;
 	float: left;
-	width: 240px;
 	opacity: 0.8;
-	background-color: black;
 	
 	-webkit-transition: -webkit-filter 1s;  
 	-webkit-filter: grayscale(30%);
@@ -47,9 +45,9 @@ body {
 }
 
 .text-shader-active {
-	-webkit-transition: -webkit-transform 2s linear;
+	-webkit-transition: -webkit-transform 1.2s linear;
 	-webkit-transform: translateX(700px);
-	-moz-translation: -moz-transform 2s linear;
+	-moz-translation: -moz-transform 1.2s linear;
 	-moz-transform: translateX(700px);
 }
 

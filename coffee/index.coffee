@@ -1,6 +1,7 @@
 
-$(document).ready -> loadPage()
+$(document).ready -> 
 	
+	$("#me-img").load -> loadPage()
 
 
 setAndBindDimensions = () ->
@@ -23,14 +24,15 @@ setAndBindDimensions = () ->
 
 rollInText = () -> $(".text-shader-1").addClass "text-shader-active"
 
-addNav = () -> 
+addNav = () -> null
 
 
 
 loadPage = () -> 
+	$("#me-img").hide().fadeIn(800)
+	$("nav").hide().fadeIn(800)
 	setAndBindDimensions()
 	setTimeout(rollInText, 600)
-
 
 
 

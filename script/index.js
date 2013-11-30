@@ -3,7 +3,9 @@
   var addNav, loadPage, rollInText, setAndBindDimensions;
 
   $(document).ready(function() {
-    return loadPage();
+    return $("#me-img").load(function() {
+      return loadPage();
+    });
   });
 
   setAndBindDimensions = function() {
@@ -33,9 +35,13 @@
     return $(".text-shader-1").addClass("text-shader-active");
   };
 
-  addNav = function() {};
+  addNav = function() {
+    return null;
+  };
 
   loadPage = function() {
+    $("#me-img").hide().fadeIn(800);
+    $("nav").hide().fadeIn(800);
     setAndBindDimensions();
     return setTimeout(rollInText, 600);
   };
