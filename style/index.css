@@ -1,29 +1,17 @@
 @charset "utf-8";
 
-/** { overflow: hidden; }*/
-
-body {
-
-}
-
-.nav-effect {
-	margin-top: 45px;
-	margin-bottom: 10px;
-}
+/* Image Styles */
 
 #me-img {
-
 	position: relative;
 	float: left;
 	opacity: 0.8;
-	
 	-webkit-transition: -webkit-filter 1s;  
 	-webkit-filter: grayscale(30%);
 
 } #me-img:hover { -webkit-filter: grayscale(0%); }
 
 .me-intro {
-
 	float: left;
 	margin-left: 20px;
 	font-weight: 300;
@@ -31,8 +19,9 @@ body {
 	color: gray;
 	width: 320px;
 	padding-top: 10px;
-
 }
+
+/* Text Shader Styles */
 
 .text-shader-1 {
 	background-color: white;
@@ -50,11 +39,9 @@ body {
 	-moz-transform: translateX(700px);
 }
 
-
-
+/* Footer Styles */
 
 footer {
-
 	margin: auto;
 	color: lightgray;
 	clear: both;
@@ -62,8 +49,7 @@ footer {
 	position: absolute;
 	bottom: 40px;
 	visibility: visible;
-
-}
+} 
 
 @media(max-height: 550px) { footer {visibility: hidden;} }
 
