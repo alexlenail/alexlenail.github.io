@@ -5,6 +5,10 @@
 
 /* Container styles */
 
+body {
+	overflow: hidden;
+}
+
 .center-600 {
 	margin: 0 auto;
 	width: 600px;
