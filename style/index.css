@@ -5,7 +5,7 @@
 #me-img {
 	position: relative;
 	float: left;
-	opacity: 0.7;
+	opacity: 0.8;
 
    transition: opacity 1s;
    -moz-transition: opacity 1s;
