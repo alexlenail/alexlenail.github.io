@@ -1,10 +1,9 @@
 
-$(document).ready -> 
-	
-	$("#me-img").load -> 
+$(document).ready ->
 
-		$("#me-img").hide().fadeIn(800)
-		$("nav").hide().fadeIn(800)
+	$("#me-img").load ->
+
+		# $(".fade-in-on-load").fadeIn(800)
 		setTimeout(rollInText, 600)
 
 
@@ -15,6 +14,6 @@ rollInText = () -> $(".text-shader-1").addClass "text-shader-active"
 
 
 
-
+# visibility: hidden
 
 

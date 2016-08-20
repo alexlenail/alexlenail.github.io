@@ -5,11 +5,12 @@
 #me-img {
 	position: relative;
 	float: left;
-	opacity: 0.8;
-	-webkit-transition: -webkit-filter 1s;  
-	-webkit-filter: grayscale(30%);
+	opacity: 0.7;
 
-} #me-img:hover { -webkit-filter: grayscale(0%); }
+   transition: opacity 1s;
+   -moz-transition: opacity 1s;
+   -webkit-transition: opacity 1s;
+} #me-img:hover { opacity: 0.9; }
 
 .me-intro {
 	float: left;
@@ -49,7 +50,7 @@ footer {
 	position: absolute;
 	bottom: 40px;
 	visibility: visible;
-} 
+}
 
 @media(max-height: 550px) { footer {visibility: hidden;} }
 
