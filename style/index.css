@@ -29,22 +29,11 @@ a {
     text-decoration: none;
     color: #9A4A4A;
 }
-
 a:hover {
-    /*text-decoration: underline;*/
     color: #DC6A6A !important;
     text-shadow: 0.7px 0px 0px #DC6A6A;
-    /*font-weight: 400;*/
 }
-
-a:active {
-    color: black;
-    font-weight: 700;
-}
-
-a:visited {
-    color: #9A4A4A;
-}
+a:visited { color: #9A4A4A; }
 
 
 
