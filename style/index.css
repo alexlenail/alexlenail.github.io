@@ -12,7 +12,7 @@ body {
 
 .center-600 {
     margin: 0 auto;
-    width: 605px;
+    width: 620px;
 }
 
 #me-img {
@@ -43,7 +43,7 @@ a:visited { color: #9A4A4A; }
     font-weight: 300;
     font-size: 18px;
     color: gray;
-    width: 345px;
+    width: 360px;
     padding-top: 10px;
 }
 
