@@ -12,7 +12,7 @@ body {
 
 .center-600 {
     margin: 0 auto;
-    width: 620px;
+    width: 730px;
 }
 
 #me-img {
@@ -41,9 +41,9 @@ a:visited { color: #9A4A4A; }
     float: left;
     margin-left: 20px;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 20px;
     color: gray;
-    width: 360px;
+    width: 400px;
     padding-top: 10px;
 }
 
@@ -51,7 +51,7 @@ a:visited { color: #9A4A4A; }
     background-color: white;
     z-index: 10;
     position: absolute;
-    width: 600px;
+    width: 800px;
     height: 400px;
     -webkit-mask-image: -webkit-gradient(linear, 44% top, 40% top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 }
@@ -77,7 +77,7 @@ nav a {
     text-decoration: none;
     font-weight: 300;
     text-shadow: 0 0 1px rgba(255,255,255,0.3);
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .nav-effect a {
