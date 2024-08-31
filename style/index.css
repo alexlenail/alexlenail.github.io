@@ -12,13 +12,13 @@ body {
 
 .center-600 {
     margin: 0 auto;
-    width: 730px;
+    width: 740px;
 }
 
 #me-img {
     position: relative;
     float: left;
-    opacity: 0.85;
+    opacity: 0.88;
 
    transition: opacity 1s;
    -moz-transition: opacity 1s;
@@ -39,12 +39,17 @@ a:visited { color: #9A4A4A; }
 
 .me-intro {
     float: left;
-    margin-left: 20px;
+    margin-left: 25px;
     font-weight: 300;
     font-size: 20px;
     color: gray;
-    width: 400px;
-    padding-top: 10px;
+    width: 405px;
+}
+.me-intro h1 {
+    line-height: 0.8;
+}
+.me-intro p {
+    margin: 25px 0 25px;
 }
 
 .text-shader-1 {
@@ -67,7 +72,7 @@ a:visited { color: #9A4A4A; }
 
 .nav-effect {
     margin-top: 45px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 nav a {
