@@ -3,7 +3,6 @@
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;
-    overflow: hidden;
 }
 
 .center-600 {
@@ -13,6 +12,7 @@ body {
 
 .hero-section {
     position: relative;
+    overflow: clip;
 }
 
 .hero-content::after {
@@ -325,6 +325,14 @@ nav a {
         padding: 0 20px;
     }
 
+    .hero-section {
+        padding-bottom: 32px;
+    }
+
+    .text-shader-1 {
+        display: none;
+    }
+
     #me-img,
     .me-intro {
         float: none;
@@ -335,11 +343,12 @@ nav a {
         flex-direction: column;
         align-items: center;
         gap: 24px;
-        text-align: center;
     }
 
     #me-img {
         width: min(280px, 80vw);
+        max-width: 100%;
+        height: auto;
         margin: 0 auto;
     }
 
@@ -347,10 +356,15 @@ nav a {
         margin-left: 0;
         width: 100%;
         max-width: 520px;
+        text-align: left;
     }
 
     .me-intro h1 {
-        text-align: center;
+        line-height: 1.15;
+    }
+
+    .me-intro p {
+        line-height: 1.5;
     }
 
     .projects-section {
@@ -368,13 +382,20 @@ nav a {
 }
 
 @media (max-width: 600px) {
-    nav a {
-        font-size: 18px;
-        margin: 12px;
+    .site-nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4px 8px;
+        margin: 20px auto 24px;
     }
 
-    .text-shader-1 {
-        display: none;
+    .site-nav a {
+        box-sizing: border-box;
+        min-height: 44px;
+        margin: 0;
+        padding: 12px 8px;
+        font-size: 18px;
     }
 
     .projects-section {
@@ -390,8 +411,6 @@ nav a {
         font-size: 13px;
     }
 }
-
-
 
 
 
